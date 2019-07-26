@@ -1,0 +1,11 @@
+.jokes{
+    display: block;
+
+}
+
+.joke{
+    display: inline-block;
+}
+.emoji{
+    display: inline-block;
+}
