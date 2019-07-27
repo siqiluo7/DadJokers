@@ -1,5 +1,6 @@
 .jokes{
-    display: block;
+    display: inline-block;
+    background-color: #F8E9A1;
 
 }
 
@@ -8,4 +9,25 @@
 }
 .emoji{
     display: inline-block;
+}
+.score{
+    display: inline-block; 
+    padding: .5rem .5rem;
+    
+    border: solid 0.1em;
+    border-color: indigo;
+    border-radius: 100%;
+}
+.Upbn{ 
+    border: 0rem white;
+    color:#f76c6c;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+.Downbn{
+    border: 0rem white;
+    color:#A8D0E6;
+    font-weight: 600;
+    font-size: 2rem;
 }

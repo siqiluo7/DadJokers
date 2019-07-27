@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import Joke from './Joke';
+import './JokesFrame.css';
 
 
 class JokesFrame extends Component{
@@ -29,7 +30,7 @@ class JokesFrame extends Component{
     }
     render() {
         return (
-             <div>
+             <div className="Frame">
              {this.state.jokes.map(m=><Joke joke={m.joke}/>)}
              </div>
         );
