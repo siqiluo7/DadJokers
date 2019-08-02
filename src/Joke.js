@@ -56,7 +56,7 @@ class Joke extends Component {
         return (
             <div className="jokes">
 
-                <button className="Upbn" onClick={this.ScoreUp}>↑</button><div className="score">{this.state.score}</div><button className="Downbn" onClick={this.ScoreDown}>↓</button>
+             <div className="grade"><button className="Upbn" onClick={this.ScoreUp}>↑</button><div className="score">{this.state.score}</div><button className="Downbn" onClick={this.ScoreDown}>↓</button></div>   
                 <div className="joke">{this.props.joke}</div>
                 <div className="emoji">{this.selectEmoji()}</div>
             </div>

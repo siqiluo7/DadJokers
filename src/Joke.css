@@ -1,14 +1,20 @@
 .jokes{
-    display: inline-block;
-    background-color: #F8E9A1;
+    display: flex;
+    background-color: #FCD633;
 
+}
+.grade{
+    display: inline-block;
+    width: 10%;
 }
 
 .joke{
     display: inline-block;
+    width: 80%;
 }
 .emoji{
     display: inline-block;
+    width: 10%;
 }
 .score{
     display: inline-block; 
@@ -23,6 +29,7 @@
     color:#f76c6c;
     font-weight: 600;
     font-size: 2rem;
+    background-color: transparent;
 
 }
 .Downbn{
@@ -30,4 +37,5 @@
     color:#A8D0E6;
     font-weight: 600;
     font-size: 2rem;
+    background-color: transparent;
 }
